@@ -1,0 +1,21 @@
+{
+    "name": "murilo-dagustin/ofx-reader",
+    "description": "A simple OFX reader",
+    "type": "library",
+    "keywords": ["ofx", "parser", "reader"],
+    "homepage": "https://github.com/MuriloDagustin/ofx-reader",
+    "autoload": {
+        "psr-4": {
+            "OfxReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Murilo Dagustin",
+            "email": "murilo.d.agustin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    }
+}
