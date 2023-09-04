@@ -14,7 +14,7 @@ class TransferReader extends AbstractReader
         ];
 
         foreach ($bankTranXML->STMTTRN as $transfer) {
-            $bankTran['tranfers'][] = [
+            $bankTran['transfers'][] = [
                 'type' => (string) $transfer->TRNTYPE,
                 'date' => $this->parseTimeStampIntoDateTime((string) $transfer->DTPOSTED),
                 'value' => (float) $transfer->TRNAMT,
